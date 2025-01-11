@@ -141,7 +141,7 @@ textarea { padding: 10px 22px 10px 22px; background: #f5f2eb; border:1px solid #
 .top-bar .top-social li a:hover { color: #e2ded0;}
 
 /* #4 Page Head*/
-.page-head { padding: 73px 0 20px 0; height: 253px; background: url(../images/page-head-bg.jpg) 50% 50% no-repeat; }
+/*.page-head { padding: 73px 0 20px 0; height: 253px; background: url(../images/cafe3.) 50% 50% no-repeat; }*/
 .page-head .breadcrumb { margin-bottom: 0; text-align: center; background: none; border-radius: 0; }
 .page-head .breadcrumb li { font-size: 14px; color: #b89d64; font-weight: 300; }
 .page-head .breadcrumb li a { font-size: 14px; color: #d8c8b5; font-weight: 300; }
@@ -707,6 +707,63 @@ ul.disc.disc li:before,ul.check.disc li:before { content:"•"; font-size:30px; 
 #getting-started { display: table; width: 100%; }
 #getting-started .item span { padding-top: 10px; font-size: 24px; font-weight: 800; color: #cec5ac; display: block; font-family: 'Raleway', sans-serif; }
 #getting-started .item { width: 20%; text-align: center; display: table-cell; font-size: 100px; font-weight: bold; color: #b89d64; font-family: 'Playfair Display', serif; }
+
+.hero_cards .col-md-4:first-child .item {
+    border-top-left-radius: 16px !important;
+    border-bottom-left-radius: 16px !important;
+}
+
+
+.hero_cards .col-md-4:last-child .item {
+    border-top-right-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+}
+
+
+.card{
+    border-radius: 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9c06a15;
+    border: 1px solid #f9c06a51;
+    gap: 2px;
+    margin: 16px 0px;
+
+}
+
+.card .title{
+    font-size: 18px;
+    margin-top: 4px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.card .description{
+    margin-top: 2px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.card .price{
+    font-size: 18px;
+    margin-top: 6px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card .img-wrap{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card .submit{
+    margin-bottom: -10px;
+    padding: 12px 14px;
+    border-radius: 16px;
+}
 
 /* #30 CUSTOM RESPONSIVE*/
 @media (max-width: 1199px) {
